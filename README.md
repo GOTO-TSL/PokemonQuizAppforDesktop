@@ -1,0 +1,3 @@
+# PokemonQuizAppforDesktop
+ポケモンの図鑑説明からポケモン名を当てるクイズが遊べるデスクトップアプリ
+
