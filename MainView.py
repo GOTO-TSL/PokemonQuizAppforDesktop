@@ -1,10 +1,8 @@
-from multiprocessing import managers
 from PokeModel import PokeModel
 import sys
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 from PyQt5 import QtGui
-import sip
 import random 
 
 # メインウィンドウ
