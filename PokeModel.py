@@ -9,6 +9,8 @@ class PokeModel():
 
     def __init__(self, number) -> None:
 
+        self.hints = []
+
         url = "https://pokeapi.co/api/v2/pokemon-species/"
         response = requests.get(url + str(number))
 
