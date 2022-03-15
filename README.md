@@ -8,7 +8,7 @@ $ git clone https://github.com/GOTO-TSL/PokemonQuizAppforDesktop.git
 ```
 ライブラリのインストール
 ```
-$ cd ~/PokemonQuizAppforDesktop.git
+$ cd PokemonQuizAppforDesktop
 $ pip install -r requirements.txt
 ```
 MainView.pyを実行
