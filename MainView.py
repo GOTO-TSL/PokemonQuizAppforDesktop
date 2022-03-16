@@ -3,6 +3,7 @@ import sys
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 from PyQt5 import QtGui
+from PyQt5.QtGui import QIcon
 import random 
 
 # メインウィンドウ
@@ -48,7 +49,7 @@ class MainWindow(QWidget):
     def validAnswer(self):
         userAnswer = self.answerView.answerTextBox.text()
         correctAnswer = self.pokeModel.pokemonName
-        print(correctAnswer)
+        # print(correctAnswer)
 
         if userAnswer == correctAnswer:
             QMessageBox.information(self, "結果", "正解", QMessageBox.Yes)
@@ -109,6 +110,7 @@ class HintButtonView(QWidget):
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
+    app.setWindowIcon(QIcon('monsterball.ico'))
     # UI
     main_window = MainWindow()
     main_window.show()
